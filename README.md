@@ -6,7 +6,7 @@ twitter-caption is a command-line tool that adds a Tweet-like caption to a given
 echo -e 'Twitter: builds a nice, user-friendly social media platform\n\nMe:' | twitter-caption -i button-slap.png -o captioned-button-slap.png
 ```
 
-[[https://github.com/evan-goode/twitter-caption/blob/master/images/captioned-button-slap.png|alt=an example meme]]
+![an example meme][https://raw.githubusercontent.com/evan-goode/twitter-caption/master/images/captioned-button-slap.png]
 
 ## Installation
 
