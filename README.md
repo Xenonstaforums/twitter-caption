@@ -6,14 +6,14 @@ twitter-caption is a command-line tool that adds a Tweet-like caption to a given
 echo -e 'Twitter: builds a nice, user-friendly social media platform\n\nMe:' | twitter-caption -i button-slap.png -o captioned-button-slap.png
 ```
 
-## Installation :arrow_down:
+## Installation
 
 ```
 yarn global add twitter-caption # using Yarn
 npm install --global twitter-caption # using npm
 ```
 
-## Usage :muscle:
+## Usage
 
 ```
 Usage: twitter-caption [options]
@@ -26,6 +26,6 @@ Options:
   -h, --help                 output usage information
 ```
 
-## License ⚖️
+## License
 
 [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html)
