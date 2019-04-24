@@ -1,0 +1,14 @@
+<h1 id="twitter-caption-bird">twitter-caption :bird:</h1>
+<p>twitter-caption is a command-line tool that adds a Tweet-like caption to a given image.</p>
+<pre><code>echo -e &#39;Twitter: builds a nice, user-friendly social media platform\n\nMe:&#39; | twitter-caption -i button-slap.png -o captioned-button-slap.png</code></pre>
+<h2 id="installation-arrow_down">Installation :arrow_down:</h2>
+<p>yarn global add twitter-caption # using Yarn npm install –global twitter-caption # using npm</p>
+<h2 id="usage-muscle">Usage :muscle:</h2>
+<pre><code>Usage: twitter-caption [options]
+
+Options:
+  -V, --version              output the version number
+  -i, --input-image &lt;path&gt;   path to input image
+  -o, --output-image &lt;path&gt;  path to output image
+  -t, --text &lt;text&gt;          text to add to the input image; if left unspecified, twitter-caption will read from stdin.
+  -h, --help                 output usage information</code></pre>

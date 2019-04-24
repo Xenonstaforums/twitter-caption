@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+<% fonts.forEach(font => { %>
+@font-face {
+	font-family: "<%- font.name %>";
+	src: url(data:<%- font.mime %>;charset=utf-8;base64,<%- font.data %>) format("<%- font.format %>");
+}
+<% }); %>
+html, body {
+	margin: 0;
+}
+body {
+	font-family: <%- fonts.map(font => `"${font.name}"`).join(", ") %>;
+	font-size: 6.4vw;
+	line-height: 1.4;
+	padding: 0.7em;
+}
+img {
+	display: block;
+	width: 100%;
+	margin-top: 1em;
+}
+		</style>
+	</head>
+	<body>
+		<%- text.replace(/\n/g, "<br>") %>
+		<img src="data:image/png;base64,<%= image %>">
+	</body>
+</html>

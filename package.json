@@ -1,0 +1,34 @@
+{
+	"name": "twitter-caption",
+	"version": "1.0.0",
+	"preferGlobal": true,
+	"bin": {
+		"twitter-caption": "./index.js"
+	},
+	"description": "Add a tweet-like caption above an image.",
+	"main": "index.js",
+	"dependencies": {
+		"commander": "^2.20.0",
+		"ejs": "^2.6.1",
+		"he": "^1.2.0",
+		"puppeteer": "^1.14.0",
+		"smartquotes": "^2.3.1",
+		"twitter-caption-fonts": "^1.0.0"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/evan-goode/twitter-caption.git"
+	},
+	"keywords": [
+		"twitter",
+		"meme",
+		"tweet"
+	],
+	"author": "Evan Goode",
+	"license": "AGPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/evan-goode/twitter-caption/issues"
+	},
+	"homepage": "https://github.com/evan-goode/twitter-caption#readme"
+}
